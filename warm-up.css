@@ -1,31 +1,44 @@
 /* Warm-up CSS for Flexbox */
 
 /* 1. Select the "flex-container" class and apply Flexbox */
+/* Apply display property with value flex */
+.flex-container {
+    display: flex;
+    height: 150px;
+    background-color:coral;
+    padding: 10px;
+    border: 2px solid orangered;
+    justify-content: center;
+    align-items: center;
+}
+.box1,.box2,.box3{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid darkred;
+    text-align: center;
+    align-content: center;
+}
+/* Set a background color */
 
-    /* Apply display property with value flex */
-    
 
-    /* Set a background color */
-   
+/* Set a height for the container */
 
-    /* Set a height for the container */
-    
 
-    /* Add some padding */
-    
+/* Add some padding */
+
 
 
 /* 2. Style the box classes your made */
- 
-    /* Set a background color */
-    
 
-    /* Set width and height to 100px */
-    
+/* Set a background color */
 
-    /* Center text inside the boxes */
-    
 
-    /* Add 10px margin */
-    
+/* Set width and height to 100px */
 
+
+/* Center text inside the boxes */
+
+
+/* Add 10px margin */
